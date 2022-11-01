@@ -60,7 +60,7 @@ fun main() {
         while (!blocks.isDisposed) {
             blocks.dispose()
         }
-        logger.info(marker, "Blocks subscribed")
+        logger.info(marker, "Blocks unsubscribed")
         web3j.shutdown()
         service.close()
     })
